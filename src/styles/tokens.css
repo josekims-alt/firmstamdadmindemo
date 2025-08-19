@@ -1,0 +1,60 @@
+/* Drop in your Figma tokens here. 
+   Replace the HSL values below with Figma Dev Mode variables (colors, radii, spacing, etc.) */
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222 47% 11%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 222 47% 11%;
+
+  --primary: 224 76% 48%;
+  --primary-foreground: 210 20% 98%;
+
+  --secondary: 210 16% 93%;
+  --secondary-foreground: 222 47% 11%;
+
+  --muted: 210 16% 93%;
+  --muted-foreground: 222 31% 33%;
+
+  --accent: 210 16% 93%;
+  --accent-foreground: 222 47% 11%;
+
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 210 20% 98%;
+
+  --border: 214 32% 91%;
+  --input: 214 32% 91%;
+  --ring: 224 76% 48%;
+
+  --brand: 224 76% 48%;
+  --brand-foreground: 210 20% 98%;
+
+  --radius: 14px;
+}
+
+/* Light/Dark support */
+.dark {
+  --background: 224 10% 10%;
+  --foreground: 210 20% 98%;
+  --card: 224 10% 13%;
+  --card-foreground: 210 20% 98%;
+  --popover: 224 10% 13%;
+  --popover-foreground: 210 20% 98%;
+  --primary: 224 76% 48%;
+  --primary-foreground: 210 20% 98%;
+  --secondary: 224 10% 20%;
+  --secondary-foreground: 210 20% 98%;
+  --muted: 224 10% 20%;
+  --muted-foreground: 213 31% 80%;
+  --accent: 224 10% 20%;
+  --accent-foreground: 210 20% 98%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 210 20% 98%;
+  --border: 224 10% 20%;
+  --input: 224 10% 20%;
+  --ring: 224 76% 48%;
+}
